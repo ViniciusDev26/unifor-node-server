@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "e86f76e7-cc67-42a1-9fa1-953eca49b98c",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/report",
+    "url": "localhost:3000/report",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-09T16:12:52.539Z",
+    "modified": "2023-03-09T16:25:42.593Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"topic\": \"Erro ao fazer login\",\n  \"detail\": \"Quando vou fazer login, aparece uma mensagem de aluno inativo, porém estou ativamente na faculdade\",\n  \"registration\": \"2020808\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
