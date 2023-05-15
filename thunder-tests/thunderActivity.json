@@ -17,5 +17,43 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "f470b46b-4e9c-42ba-b2d9-5c26e20dbb9f",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/rate",
+    "url": "localhost:3000/rate",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-15T23:24:16.550Z",
+    "modified": "2023-05-15T23:24:16.550Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"issueId\": \"1c2f5e94-8436-4f0c-9875-e3378d540bae\",\n  \"registration\": \"2020808\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "be1b5072-e68d-44a8-b8d3-3d75938fefd3",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/rate",
+    "url": "localhost:3000/rate",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-15T23:24:22.590Z",
+    "modified": "2023-05-15T23:30:55.510Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"issueId\": \"1c2f5e94-8436-4f0c-9875-e3378d540bae\",\n  \"registration\": \"2217705\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

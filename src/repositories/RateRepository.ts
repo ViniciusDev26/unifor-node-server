@@ -11,4 +11,17 @@ export class RateRepository {
       data: rate
     })
   }
+
+  async registrationAlreadyRated (issueId: string, registration: string): Promise<boolean> {
+    const rate = await connection.rate.findFirst({
+      where: {
+        issueId,
+        user: {
+          registration
+        }
+      }
+    })
+
+    return !!rate
+  }
 }

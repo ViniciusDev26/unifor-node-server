@@ -1,7 +1,8 @@
+import { type Issue } from '@prisma/client'
 import { type IssueRepository } from '../repositories/ReportIssueRepository'
 
 interface ListIssueParams {
-  registration: string
+  registration?: string
 }
 
 export class ListIssue {
@@ -9,7 +10,9 @@ export class ListIssue {
     private readonly issueRepository: IssueRepository
   ) {}
 
-  async execute (params: ListIssueParams): Promise<void> {
+  async execute (params: ListIssueParams): Promise<Issue[]> {
+    const issues = await this.issueRepository.list(params)
 
+    return issues
   }
 }
